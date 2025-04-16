@@ -147,14 +147,14 @@ export default function Home() {
           </p>
 
           <form
-            action="https://formsubmit.co/jreletronicofc@gmail.com"
+            action="https://formsubmit.co/sac@jreletronic.com"
             method="POST"
             className="bg-white p-6 rounded-xl shadow space-y-4"
           >
             <input type="hidden" name="_subject" value="Novo Contato pelo Site - JR Eletronic" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
-            <input type="hidden" name="_next" value="http://localhost:3000/obrigado.html" />
+            <input type="hidden" name="_next" value="https://jreletronic.com/obrigado.html" />
 
             <div className="grid md:grid-cols-2 gap-4">
               <div>
