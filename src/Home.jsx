@@ -9,7 +9,9 @@ export default function Home() {
       {/* Navbar Responsiva */}
       <header className="fixed top-0 left-0 w-full bg-black bg-opacity-95 text-[#b0fc04] py-4 shadow-md z-50">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <img src={logo} alt="Logo JR Eletronic" className="h-10" />
+          <a href="/">
+            <img src={logo} alt="Logo JR Eletronic" className="h-10" /> 
+          </a>
 
           {/* Botão hambúrguer */}
           <button
@@ -119,13 +121,15 @@ export default function Home() {
             atendimento remoto e domiciliar, além de orientações personalizadas para melhor uso dos equipamentos.
           </p>
 
-          <h4 className="text-2xl font-semibold mt-10 mb-4">🖥️ Suporte Técnico a Servidores (RISC e Intel)</h4>
+          <h4 className="text-2xl font-semibold mt-10 mb-4">🌐 Landing Page</h4>
           <p className="text-lg text-gray-600 mb-6">
-            Atendimento especializado com SLA personalizado, suporte 24h, análise de logs, gerenciamento e visitas técnicas programadas
-            para garantir segurança e alta disponibilidade.
+           Criação de páginas otimizadas, modernas e responsivas para divulgar seu negócio ou serviço. Ideal para captar leads, apresentar sua marca e melhorar sua presença online com foco em performance e conversão.
           </p>
 
-          <h4 className="text-2xl font-semibold mt-10 mb-4">🌐 Infraestrutura de Redes</h4>
+          <h4 className="text-2xl font-semibold mt-10 mb-4">🤖 Chatbot</h4>
+          <p className="text-lg text-gray-600 mb-6">Desenvolvimento de assistentes virtuais personalizados para atendimento automático via WhatsApp, sites ou redes sociais. Atenda seus clientes 24h por dia, otimize processos e melhore a experiência do usuário.</p>
+
+          <h4 className="text-2xl font-semibold mt-10 mb-4">🛜 Infraestrutura de Redes</h4>
           <p className="text-lg text-gray-600 mb-6">
             Projetos e serviços com cabeamento estruturado, redes wireless, configuração de VPN, switches, roteadores, cable modems e
             monitoramento proativo dos ativos de rede para reduzir falhas e garantir o desempenho ideal.
