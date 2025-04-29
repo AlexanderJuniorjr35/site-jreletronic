@@ -91,6 +91,9 @@ export default function Home() {
               { title: "Instalação de Switches", icon: "🔌" },
               { title: "Limpeza e Otimização", icon: "🧹" },
               { title: "Formatação e Backup", icon: "💾" },
+              { title: "Landing Page", icon: "🌐" },
+              { title: "Chatbot", icon: "🤖" },
+              { title: "Suporte Remoto", icon: "🧑‍💻" },
             ].map((service, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow text-center">
                 <div className="text-4xl mb-4">{service.icon}</div>
@@ -129,7 +132,7 @@ export default function Home() {
           <h4 className="text-2xl font-semibold mt-10 mb-4">🤖 Chatbot</h4>
           <p className="text-lg text-gray-600 mb-6">Desenvolvimento de assistentes virtuais personalizados para atendimento automático via WhatsApp, sites ou redes sociais. Atenda seus clientes 24h por dia, otimize processos e melhore a experiência do usuário.</p>
 
-          <h4 className="text-2xl font-semibold mt-10 mb-4">🛜 Infraestrutura de Redes</h4>
+          <h4 className="text-2xl font-semibold mt-10 mb-4">📡 Infraestrutura de Redes</h4>
           <p className="text-lg text-gray-600 mb-6">
             Projetos e serviços com cabeamento estruturado, redes wireless, configuração de VPN, switches, roteadores, cable modems e
             monitoramento proativo dos ativos de rede para reduzir falhas e garantir o desempenho ideal.
