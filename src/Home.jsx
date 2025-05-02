@@ -51,6 +51,7 @@ export default function Home() {
             <a href="#home" className="hover:underline">Início</a>
             <a href="#servicos" className="hover:underline">Serviços</a>
             <a href="#sobre" className="hover:underline">Sobre</a>
+            <a href="#parceiros" className="hover:underline">Parceiros</a>
             <a href="#contato" className="hover:underline">Contato</a>
           </nav>
         </div>
@@ -61,6 +62,7 @@ export default function Home() {
             <a href="#home" className="hover:underline" onClick={() => setMenuAberto(false)}>Início</a>
             <a href="#servicos" className="hover:underline" onClick={() => setMenuAberto(false)}>Serviços</a>
             <a href="#sobre" className="hover:underline" onClick={() => setMenuAberto(false)}>Sobre</a>
+            <a href="#parceiros" className="hover:underline" onClick={() => setMenuAberto(false)}>Parceiros</a>
             <a href="#contato" className="hover:underline" onClick={() => setMenuAberto(false)}>Contato</a>
           </nav>
         )}
