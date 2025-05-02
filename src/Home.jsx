@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import logo from "./assets/logo-v2.png";
+import ParceirosSection from "./components/ParceirosSection";
+
 
 export default function Home() {
   const [menuAberto, setMenuAberto] = useState(false);
@@ -68,31 +70,26 @@ export default function Home() {
       <div className="pt-24" />
 
       <section id="home" className="bg-white py-20 text-center">
-        <h2 className="text-4xl font-bold mb-4">Soluções em Manutenção e Montagem de Computadores</h2>
+        <h2 className="text-4xl font-bold mb-4">Soluções em Hardware e Software com Qualidade e Confiança</h2>
         <p className="text-lg text-gray-600 mb-6">
-          Roteadores, Switches, PCs e muito mais com qualidade e confiança.
+        Assistência técnica em computadores, redes, formatação, instalação de programas e suporte a ferramentas em nuvem.
         </p>
-        <a
-          href="#contato"
-          className="bg-black text-[#b0fc04] px-6 py-3 rounded-lg shadow hover:bg-gray-900 transition"
-        >
-          Fale Conosco
-        </a>
       </section>
 
       <section id="servicos" className="py-20 bg-gray-100">
         <div className="container mx-auto px-4">
           <h3 className="text-3xl font-semibold text-center mb-10">Nossos Serviços</h3>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-4 gap-5">
             {[
+              { title: "Landing Page", icon: "🌐" },
+              { title: "Chatbot", icon: "🤖" },
               { title: "Manutenção de Computadores", icon: "🛠️" },
               { title: "Montagem de PCs", icon: "🖥️" },
               { title: "Configuração de Roteadores", icon: "📡" },
               { title: "Instalação de Switches", icon: "🔌" },
-              { title: "Limpeza e Otimização", icon: "🧹" },
               { title: "Formatação e Backup", icon: "💾" },
-              { title: "Landing Page", icon: "🌐" },
-              { title: "Chatbot", icon: "🤖" },
+              
+              
               { title: "Suporte Remoto", icon: "🧑‍💻" },
             ].map((service, index) => (
               <div key={index} className="bg-white p-6 rounded-xl shadow text-center">
@@ -145,6 +142,8 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <ParceirosSection />
 
       <section id="contato" className="py-20 bg-gray-100">
         <div className="container mx-auto px-4 max-w-2xl">
@@ -208,6 +207,8 @@ export default function Home() {
           </form>
         </div>
       </section>
+
+      
 
       <footer className="bg-black text-white text-center py-4">
         <p>&copy; {new Date().getFullYear()} JR Eletronic. Todos os direitos reservados.</p>
